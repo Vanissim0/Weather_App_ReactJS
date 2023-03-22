@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import './components/icons/sun/Sun'
+import Sun from "./components/icons/sun/Sun";
+import Cloud from "./components/icons/cloud/Cloud";
 
 const api = {
   key: "cf7b3e8f235d454dc20ceab7f829d029",
@@ -90,7 +93,9 @@ function App() {
         ) : (
           ""
         )}
+        <Cloud />
       </main>
+      
     </div>
   );
 }
